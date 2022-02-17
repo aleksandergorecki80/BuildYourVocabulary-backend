@@ -1,0 +1,20 @@
+{
+  "name": "build_your_vocabulary-backend",
+  "version": "1.0.0",
+  "description": "Aplication for learning new vocabulary.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "author": "Aleksander Gorecki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15"
+  }
+}
