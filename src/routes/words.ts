@@ -1,10 +1,10 @@
-import { Request, Response, Router } from 'express';
-import { getWord } from '../controllers/words';
+import { Router } from 'express';
+import { getDefinitions } from '../controllers/getDefinitions';
 
 const router = Router();
 
 router
     .route('/')
-    .get(getWord);
+    .get(getDefinitions);
 
 export default router;
