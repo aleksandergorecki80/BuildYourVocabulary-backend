@@ -1,7 +1,8 @@
-// Code goes here
-console.log('Hello world...');
-
 import express from 'express';
 
 const app = express();
-app.listen(3000);
+
+const SERVER = 3000;
+app.listen(SERVER, () => {
+  console.log(`The app is running at ${SERVER}`);
+});
