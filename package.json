@@ -10,10 +10,12 @@
   "author": "Aleksander Gorecki",
   "license": "ISC",
   "dependencies": {
+    "@cityssm/random-words": "^1.2.1",
     "axios": "^0.26.0",
     "config": "^3.3.7",
     "express": "^4.17.2",
-    "random-words-typed": "^1.2.2"
+    "random-words-typed": "^1.2.2",
+    "rword": "^3.2.1"
   },
   "devDependencies": {
     "@types/config": "0.0.41",

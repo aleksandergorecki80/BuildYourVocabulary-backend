@@ -11,7 +11,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   res.status(500).json({ message: err.message });
 });
 
-const SERVER = 3000;
+const SERVER = 8080;
 app.listen(SERVER, () => {
   console.log(`The app is running at ${SERVER}`);
 });

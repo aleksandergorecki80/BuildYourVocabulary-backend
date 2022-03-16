@@ -4,7 +4,7 @@ import { getDefinitions } from '../controllers/getDefinitions';
 const router = Router();
 
 router
-    .route('/')
+    .route('/:level')
     .get(getDefinitions);
 
 export default router;
