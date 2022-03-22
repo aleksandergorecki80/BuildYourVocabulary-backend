@@ -14,8 +14,11 @@
     "axios": "^0.26.0",
     "config": "^3.3.7",
     "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^5.0.2",
     "random-words-typed": "^1.2.2",
-    "rword": "^3.2.1"
+    "rword": "^3.2.1",
+    "xss-clean": "^0.1.1"
   },
   "devDependencies": {
     "@types/config": "0.0.41",
